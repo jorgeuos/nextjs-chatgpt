@@ -63,7 +63,7 @@ class MyPage extends React.Component {
 
 Can it be easier than that? I think not. But I still tweaked some and ended up with this result.
 
-Check out
+Check it out:
 ```
 ./pages/index.js
 ./pages/api/generate.js
