@@ -38,7 +38,7 @@ ChatGPT replies:
 > To write an integration in Next.js, you can use the getInitialProps lifecycle method. This method is called on the server-side and allows you to perform asynchronous actions before rendering the page. Here is an example:
 
 > Copy code
-```react
+```js
 import React from 'react';
 
 class MyPage extends React.Component {
