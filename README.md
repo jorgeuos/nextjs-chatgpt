@@ -19,6 +19,15 @@ nvm use
 yarn install
 ```
 
+### Go get a fresh OpenAI API token
+
+Goto [OpenAI API](https://openai.com/api/) and login or signup. Then copy the `.env.example` file and paste your token in it.
+
+```
+cp .env.example .env
+```
+## Now you're all set. Have fun!
+
 Start the local server:
 ```
 yarn run dev
@@ -67,10 +76,12 @@ class MyPage extends React.Component {
 
 ### Summary
 
-Can it be easier than that? I think not. But I still tweaked some and ended up with this result.
+Can it be easier than that? I think not. But I still tweaked some and ended up with this result. I also got some help from OpenAI playground tutorial.
 
 Check it out:
 ```sh
 ./pages/index.js
 ./pages/api/generate.js
 ```
+
+Enjoy!
